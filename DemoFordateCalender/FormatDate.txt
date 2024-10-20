@@ -1,0 +1,3 @@
+DateTime.ParseExact(checkInDate,"d/MM/yyyy",system.Globalization.CultureInfo.InvariantCulture).ToString("MMMM yyyy")
+
+DateTime.ParseExact(checkInDate,"d/MM/yyyy",system.Globalization.CultureInfo.InvariantCulture).ToString("d/MM").Split("/")(0)

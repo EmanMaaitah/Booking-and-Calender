@@ -1,0 +1,278 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1240,2514" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Globalization</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="670,2934" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Booking.com: Hotels in Dead Sea Jordan. Book your hotel now!" sap:VirtualizedContainerService.HintSize="552,2911" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="Always" ScopeGuid="04c06987-ce96-44e1-97fe-9837f9264386" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,2671" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="CityName" />
+              <Variable x:TypeArguments="x:String" Name="checkInDate" />
+              <Variable x:TypeArguments="x:String" Name="CurreentMonthOnCalender" />
+              <Variable x:TypeArguments="x:String" Name="strMonthYear" />
+              <Variable x:TypeArguments="x:String" Default="45" Name="strDayOnly" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="484,271" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="where you want to go" Title="city name">
+              <ui:InputDialog.Result>
+                <OutArgument x:TypeArguments="x:String">[CityName]</OutArgument>
+              </ui:InputDialog.Result>
+            </ui:InputDialog>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'INPUT :re'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="484,250" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="DebuggerApi" ScopeIdentifier="04c06987-ce96-44e1-97fe-9837f9264386" Text="[CityName]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.booking.com/searchresults.en-gb.html?ss=london&amp;ssne=Dead+Sea+Jordan&amp;ssne_untouched=Dead+Sea+Jordan&amp;label=gen173nr-1DCAEoggI46AdIM1gEaHSIAQGYAQm4ARfIAQzYAQPoAQGIAgGoAgO4AtmfgKgGwAIB0gIkZjZmMzIyNzQtODViNy00ZDJkLWFjNjktZWU4NzE5MWIxMTJl2AIE4AIB&amp;sid=df86af5530eb20dce3d43f12d63f6654&amp;aid=304142&amp;lang=en-gb&amp;sb=1&amp;src_elem=sb&amp;src=index&amp;dest_id=3609&amp;dest_type=region&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;sb_travel_purpose=leisure" CvTextArgument="Where are you going?" CvType="Text" DesignTimeRectangle="177, 271, 334, 36" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT :re'" FullSelectorArgument="&lt;webctrl id=':re:' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id=':re:' tag='INPUT' type='' class='eb46370fe1' aaname='' /&gt;" Guid="23927657-25a1-41e7-9d86-855515d95636" ImageBase64="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" InformativeScreenshot="a99a0d4b430b98426ff8dc28aa824bdb.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Booking.com: Hotels in Dead Sea Jordan. Book your hotel now!' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Check-in date'" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="04c06987-ce96-44e1-97fe-9837f9264386" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.booking.com/searchresults.en-gb.html?ss=london&amp;ssne=Dead+Sea+Jordan&amp;ssne_untouched=Dead+Sea+Jordan&amp;label=gen173nr-1DCAEoggI46AdIM1gEaHSIAQGYAQm4ARfIAQzYAQPoAQGIAgGoAgO4AtmfgKgGwAIB0gIkZjZmMzIyNzQtODViNy00ZDJkLWFjNjktZWU4NzE5MWIxMTJl2AIE4AIB&amp;sid=df86af5530eb20dce3d43f12d63f6654&amp;aid=304142&amp;lang=en-gb&amp;sb=1&amp;src_elem=sb&amp;src=index&amp;dest_id=3609&amp;dest_type=region&amp;group_adults=2&amp;no_rooms=1&amp;sb_travel_purpose=leisure" CvElementArea="524, 215, 293, 55" CvTextArea="566, 236, 214, 16" CvTextArgument="Check-in date - Check-out date" CvType="Button" DesignTimeRectangle="559, 226, 103, 36" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Check-in date'" FullSelectorArgument="&lt;webctrl aaname='Check-in date' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Check-in date' tag='BUTTON' type='button' class='d47738b911 e246f833f7 fe211c0731' check:innerText='Check-in date' /&gt;" Guid="d3adeea9-1f3d-48db-b592-7c556559cd85" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGsAAAAoCAYAAAD5cwTOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASrSURBVHhe7ZnPS+NMGMfzd/SvyFG8CMLqxeCLKHgI7KV4sPCClIWlLCzBgz0Ikj1IEaQHl9BTepB6WMmtHpQIr6aw0PfwUg8v5LCHgEhgwe8+M5O2ae2PFF22A/OBgU5mMvPM85155gnVoJAGJZZEKLEkQoklEUosiVBiSYQSSyKUWBKhxJIIJZZEKLEkQoklEdrl5SWenp6SqmKe0ba3t2FZVlJVzDPazc0N1tfXk6pintHu7u6wurqaVKcTfW/A3tvCkp5DLpeDvryFshfxNv+IPbPh89rbEdbzNG4e7v/JgynEtxXkd2w0fyQPXk0Id4fWtuPSrz/HTGJ1zotYYAJtFlGpe2heeXBPLdgXYgnzIlZ4XoCuF9DI2H86s4kV0WYpko/ebn6Bdnh4mE2s/xyYJJRx5EOco5fMi1hvz2xi/S57td3d3Uxi+Uc6cnoZzTh5MIKuWN6/DorL1D+nY+lDA52knRFd065bW6C2HBbWiqi2UgP+DNE8LsJYZONQu+mgTY8HFx/TPAbZUoD7wOovGXbWS7sWYO57A3YNEsE/LohQry+hcNpAdUAsaj8tweRj0fNFE9Y3MZqYK1W67zy24e6bvTEnzz+ajGEw284ShupY2KvCf+jQgigckcGlb+Isxrc2DGovfA0QRh14B8zpJXj8bgnR+JttCJPCaoBO2IZ37CJgLSnnd+psTAP27fhdM1osHVufabzwpV3DBCdkF81RqvnCji8m799ff4DqZ4fWGCEKAzjM7u58jxHaX8X8zndqj5idHbisz1oZHr0TthwUSDTjhK0uO79BrL6TEDdhsUVS6BRi0O+9Rj+MRh5K1F44p1FbFawwB3ovReg5/9pFnoldn7wnR4tFd0gv4fBR7tk1TACbHKkfNOkMd+nA2ab+49ZPm5CdIvtWVIfnxz82ib2CSiupE8HJCm1Mm2/GrGj39/cZxIrR3Cdj31UmDi6ckr6zfNg9pyS/R5R8PeRJwcACU4jFG9japN35V5WHRsHQmIkzR4s1zq4hwgYKiU19hjcrnZ6LKizKirc2l8SpozJOLFEXfQbL9Ps9/W7mbDC+KnOj8rXxu3qyU5KT9bFBIZCFh1RhW5jvPh3lq8kni4ePT/14Hw+MJd59lVjUxk6dPtAWoPKO+ididWomH79y2+HzxtdZTpZB/dO29u3NygypewjvE4vldPHvWHAumiJ1Py7BGpu6DzqFp9Tdu4AZ++DDPXCS00oOWaO+i+SECXeWuPdEVjpuqa8Ti6LIAbuDDJTrZMdDQDaaWEmJFXwRd1S1FfI1VPmdlRKLR4kVWOdtBNd0P8cUWmlt+nuW5NA7UYi2V0XFS5/e6cz0nSWOv93L5ni2x765aMcwpjslRrtupbIoA8WjZhJaiIgu649JxkQZm7Hn8hM07HyRZIy/u14nFpFkbvybcrmACjl8IAw+eLDMJKM16eP7vMx/d8XCIyUgO0n7B0+888NHZc/gY3K/vS/BSWfCGZhRLMWfRIklEUosidBqtRrY3ySK+Ufb2NjA2dlZUlXMM+pvfYlQYkmEEksilFgSocSSCCWWRCixJEJ7fn6GKnIUJZZERYklTXnGL1VP1Yd9iDTMAAAAAElFTkSuQmCC" InformativeScreenshot="d1394f39d304fedd50ba5c3943e481bf.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Booking.com: Hotels in Dead Sea Jordan. Book your hotel now!' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvElementArea="524, 215, 293, 55" CvTextArea="566, 236, 214, 16" CvTextArgument="Check-in date - Check-out date" CvType="Button" DesignTimeRectangle="675, 226, 113, 36" ElementType="Button" FriendlyName="'Check-out date'" FullSelectorArgument="&lt;webctrl aaname='Check-out date' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Check-out date' tag='BUTTON' type='button' class='d47738b911 e246f833f7 fe211c0731' check:innerText='Check-out date' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHUAAAAoCAYAAADAFLWVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATkSURBVHhe7Ze/a+NIFMfzd/ivUGm2CQTWld3FcIUgjXFxhsBiDoK4xriI2SZoC2MWgjlYRGBBLoxdLKhYkIuADQteCNhFUIoFFVsIUggO8r03o5Ely3JsLwm3DPOBwT9mNPPmfWfeezqCQjqUqBKiRJUQJaqEKFElRIkqIUpUCVGiSogSVUKUqBKiRJUQJaqEKFElRIkqIUpUCfklUYO7Ecx3VRxrBRQKBWgnVXScgHqmMOl34WoaDXxBpldsLZNW+M2Zmdwn5kz8/h84WFRv2ESRCXnaRG/gwJ04sK9bMMc+9colajDroUn7HP0Qf+zDQaJ6GF3UUOm+7K4OE/Xegk4GV0g0di83kUtUf1CjNWuwX03U1/HXQaJOrzQUtA7cUPyxQWykg8VNMwrP2jGaQ0/0M0IsBi3oJzRXQcPxWQvOg+hiBAvYbV2EdupvO/wArYvqwT6n58v0+5H/kUtw24dxdgyN2UR26G0bi3h8jvPTa0TfU61ug8WiLOHSRksv8jFFnfbyucO/x/OG9w6lqgqPbnw/f/YxZzb8sFGL5xYtfia4pQhRFnOWm+h/3+rwXA4Q1Ydd3765CCGqVkTzegrvYYo+c37BAE+5hDdokJMrlIM9BP4cFhenhznrDOcwy/R82YA1WcCn561/HL5e4vCQvldojQbs9GHIEJJoFXKi/mGE+YOPhWNCp4OinY8i+3eIiscAi0/RTbXuAgRBjmN/OjDYnGcmnKUPb2bBYPan5vXHJnoO7SUI4DkdsonG85sZ0pwOOsxfl3RwqT/8N7G78WlOz3hwLtleyX8/o/n24XVETY0Jv7ZSmyTRyAmlLpcw4nsPJdqE+Y1O6BeDxlbRX4q+FLHDndsOja/QfM+dXh+jcxqvW3SnE4Jxk89v3dOPXaISu8KvP2xQvx7NJ1jfb5asD7PhV9j9bpSkNxLeoDGN4XavZzliBrC2mxBum8a+Fbcql5wckXZeTsiJG+uff2C3OnFqmsjhVVRP6fMiCsmc7Jx87ejwbOSqtC0vIGquvdl5fRfWewO1P6qovBE2bhVV/M5ptcEBoorPvQgnHZ6fajfp859mh6jC2ZWPVGhRuEk3FnryTn7M6qbSfDysfpzTMWOwMJaai+fM526qEOmbyffS+prc+On7aI19RfU+b/ZHa4j9hi46LDK1R1j4zDaqBfa5qReUItJ7Yu2AtHpY9UuLOn9TjCdDivUWrLEbvdJ0DbS2vdKsiRrS6WY5Qocp8oy/dNDvRnlzlaNOae6tOTXOy5R3BtsOVxTK2ZhVTp300WBzx7dchDWWD13WP47y3Zqo/JCV0BouML+lHCf+XyHeBrTzPtylx9cwyqVkv/4IDfpeomLPC1JrrEQVEaXew3TpYnoXrclqDuOGahImJvnAvrSeiY6bHCgqgwoISv5xdcYrOvbOOuM16g5RGQGm3eYqFGknOm0gvnXEQ6paZBXrlctFWA+NoljakVv9SVJFFt5U0Oy68CkixHhfqArndhT5OqPMTcXjHP26qEL/EgcvA6tUG7ySpzlYdU0FWbJfOsTXjeQt4IYOcKYuYTZURX+P6gr2TPJ2QP8zu8m2vLW38QuiKn53lKgSokSVECWqhChRJUSJKiFKVAlRokqIElVClKgSokSVECWqhBw9PT1BNbmaElXCpkSVrj3hPzUU9mgYD0eYAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text 'Check-in Date'" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="04c06987-ce96-44e1-97fe-9837f9264386" TextString="[CurreentMonthOnCalender]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.booking.com/searchresults.en-gb.html?ss=london&amp;ssne=Dead+Sea+Jordan&amp;ssne_untouched=Dead+Sea+Jordan&amp;label=gen173nr-1DCAEoggI46AdIM1gEaHSIAQGYAQm4ARfIAQzYAQPoAQGIAgGoAgO4AtmfgKgGwAIB0gIkZjZmMzIyNzQtODViNy00ZDJkLWFjNjktZWU4NzE5MWIxMTJl2AIE4AIB&amp;sid=df86af5530eb20dce3d43f12d63f6654&amp;aid=304142&amp;lang=en-gb&amp;sb=1&amp;src_elem=sb&amp;src=index&amp;dest_id=3609&amp;dest_type=region&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;sb_travel_purpose=leisure" CvType="AnyWordGroup" DesignTimeRectangle="555, 393, 281, 48" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'October 2024'" FullSelectorArgument="&lt;webctrl tag='H3' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='e1eebb6a1e ee7ec6b631' /&gt;" Guid="f39be8b8-2b86-4530-af1f-516a45be18c9" InformativeScreenshot="a7d1255d58b3804c5a012823ca94dc3f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Booking.com: Hotels in Dead Sea Jordan. Book your hotel now!' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvElementArea="523, 279, 295, 55" CvTextArea="569, 299, 219, 15" CvTextArgument="Check-in Date - Check-out Date" CvType="Button" DesignTimeRectangle="571, 296, 88, 20" ElementType="Text" FriendlyName="'Check-in Date'" FullSelectorArgument="&lt;webctrl aaname='Check-in Date' parentid='bodyconstraint-inner' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Check-in Date' parentid='bodyconstraint-inner' tag='SPAN' type='' class='a8887b152e' check:innerText='Check-in Date' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFwAAAAYCAYAAAB3JpoiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPXSURBVGhD7Ze/a9tAFMf7d/iv0GiyBAr1FEGHCDp4FB5qKBhRCCZQTIaYLEYdgpbgJZhM8mDkIaBNGQIyBBwIOENQhoCGDoIMggzfvvsR2ZYtOWkTkUFfENh3p7v3Pvfeu9MnlCpUJfCCVQIvWCXwglUCL1gl8IJVAi9YK8CjGwdmS8O2UkGlUoHyWUPXjXif32NtJnz+7+0UDnWaV4f9IBs2KJ5Y0BsmvD+y4ZUS6wn/+KNsQ2uZsCehHPF+WgIejAxUGeRdA9bQhXfhwj7pwBwLQz4K8HDUhKI04bxwfFpiPQqkkUc+0jMeoNOoUpsC7bePWI7LVwBnT4d6/Doac+B3A9QJttrzIeJ5VR8F+P9q/Xox+adSuwrrWjblyofJsoN4vUYJcL+nUGp14eVs7zNw93YA4zONp4jY/unQXs8VXVowdli0VFDdMdC/XpjwKYR3bEDdYvNQf32AGTUvA5COUwTb9+z/qtLAVu2qon7gLtm1qMwNjly0yS7tVLwZ37lUXlWe9dzX731MH6njwYbO2+aPOeGv5PtPSoDbDXqxYSOvignHFFRbffj3AfwTSm2auH0uciKemFCpv3k6RRgFcA8ZuDZcXmtDOD/YptapRE0RhDO4xzamrGcBQDBkc6rkQPbOrwdO5eAXzReu2pVWJvBU1IZjE5Y7I18iBG6XfKNyy/tiRLQ5XTb20KXfEeKnTf4L/QPwBUNjD53EQAaUfreceUmSEdMc0azXFmr0u+2ugkwAXLLIIYOHWbEptB64ASdxzBcwMtL9pcCXFaYYpcdu8F8qAe4d0OAvFo+4LD2n7tycxUXl7zWPPgz5QbfeyWcAKrRdyoCvfV5mhFJzSmfXA8+ya1WZwGWpYPZyhR4GR23o37SkDGYDz/f/WQnw+KLL01A/y46ufMfkDu85PAVZmiUPC+ork+ZX0L3Ij/AmXUfV/Xn9jZfmEu++D/AI3lGNSkAHHqvTlL1dsqV24GAW0tqPwcsiPMt/qQQ4e8HdZ6c0FftGB4MxuzLRtfC4jU7mtXB5UX5do0htn/kI2EL3PuzDgcyaKawdGrulw8qp4aIOitvS6tYIvQ3wxWthHwbLLkWbnx2hgybNUWOHbxRiNhY1fA58CpN9qzQs+Lce/JtN/gstAGeKaGIzOWX5yczu5BNRlTY7FmM27KDObwrUvqXC6HnSQFI0xWCvLj+qqlBbNo/kNEBxcGbX8rcBzt4RD/u4M3oUyUtnbIwpHb7cVvowMs5c9FPnXHDegSb7rSvWssF/Ugp4qfdWCbxglcALVgm8YJXAC1YJvGCVwAsV8Be/Kb8JS9mmUAAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NGetText>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="484,117" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[CurreentMonthOnCalender]" />
+            <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="484,271" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="pls enter a check-in date in this format : d/MM/yyyy" Title="check_in date">
+              <ui:InputDialog.Result>
+                <OutArgument x:TypeArguments="x:String">[checkInDate]</OutArgument>
+              </ui:InputDialog.Result>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:InputDialog>
+            <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="484,164" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+              <ui:MultipleAssign.AssignOperations>
+                <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">[strMonthYear]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">[DateTime.ParseExact(checkInDate,"d/MM/yyyy",system.Globalization.CultureInfo.InvariantCulture).ToString("MMMM yyyy")]</InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">[strDayOnly]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">[DateTime.ParseExact(checkInDate,"d/MM/yyyy",system.Globalization.CultureInfo.InvariantCulture).ToString("d/MM").Split("/")(0)]</InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                </scg:List>
+              </ui:MultipleAssign.AssignOperations>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:MultipleAssign>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="484,117" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[strMonthYear]">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:MessageBox>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="484,117" sap2010:WorkflowViewState.IdRef="MessageBox_4" Text="[strDayOnly]" />
+            <While sap:VirtualizedContainerService.HintSize="484,742" sap2010:WorkflowViewState.IdRef="While_2">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <While.Condition>[CurreentMonthOnCalender.Trim&lt;&gt;strMonthYear.Trim]</While.Condition>
+              <Sequence sap:VirtualizedContainerService.HintSize="416,550" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'BUTTON'" sap:VirtualizedContainerService.HintSize="382,189" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="04c06987-ce96-44e1-97fe-9837f9264386" Version="V3">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="https://www.booking.com/searchresults.en-gb.html?ss=london&amp;ssne=Dead+Sea+Jordan&amp;ssne_untouched=Dead+Sea+Jordan&amp;label=gen173nr-1DCAEoggI46AdIM1gEaHSIAQGYAQm4ARfIAQzYAQPoAQGIAgGoAgO4AtmfgKgGwAIB0gIkZjZmMzIyNzQtODViNy00ZDJkLWFjNjktZWU4NzE5MWIxMTJl2AIE4AIB&amp;sid=df86af5530eb20dce3d43f12d63f6654&amp;aid=304142&amp;lang=en-gb&amp;sb=1&amp;src_elem=sb&amp;src=index&amp;dest_id=3609&amp;dest_type=region&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;sb_travel_purpose=leisure" DesignTimeRectangle="1007, 278, 48, 48" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'BUTTON'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl type='button' tag='BUTTON' class='a83ed08757 c21c56c305 f38b6daa18 d691166b09 f671049264 deab83296e f4552b6561 dc72a8413c f073249358' aaname='' /&gt;" Guid="b7e6a812-cd39-42f7-a702-032f4709b521" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGqSURBVGhD7djHqgIxGIZhr0QsO+9jEPGqFctOFy7E3h17QxFR+A5fiGDjrExMQl7I5l/IPMwYM0YajQZ+tZrN5tNqtVpvq91ui9XpdMTqdrvo9Xro9/sYDAYYDocYjUYYj8eYTCaIfPqQX6z7hb9e/CfAK2I6nSIMQ8znc0RgUdfrFcfjEYvFQkC4CJnNZgLDuVWgx06n0xtmuVzaC2KXy+UJs16v7Qax8/mM1WolMNvt1n4Q2+12ArTZbNwA8S45dYdut5tbIMZNwZlHjjkH4tbtxLZ9j79H3L6dAfHEYP1J4TGCrD7LveYcyMrXh//iOxHvkgeZmnJQtVpFMplEoVCQE7UpBx0OB2SzWcTjceTzeTlVF1/HlT9yfP9Pp9OIxWLI5XJyqiYtIMY7RVQ0GlWK0gZiOlBaQYyoTCYjUPV6XU6/109BtVpNTr8XQTwtaHvkgiBQujnwX1QtoEdMqVSS0++nBaQLw5SD9vu92NkSiQSKxaKcqks5qFKpIJVKoVwuy4natH2HdOVBpudBpudBpudBpudBpudBpudBpudBpudBpucoKMQfHoCOvolMgQYAAAAASUVORK5CYII=" InformativeScreenshot="95b1e1f0f9befc18db067d59c272c737.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Booking.com: Hotels in Dead Sea Jordan. Book your hotel now!' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target CvElementArea="1117, 213, 115, 61" CvTextArea="1143, 235, 62, 18" CvTextArgument="Search" CvType="Button" DesignTimeRectangle="1144, 230, 60, 28" ElementType="Text" FriendlyName="'Search'" FullSelectorArgument="&lt;webctrl aaname='Search' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Search' tag='SPAN' type='' class='e4adce92df' check:innerText='Search' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgCAYAAACinX6EAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANwSURBVGhD5VdPSxtBFM9XyUfwK3jMR/CaY3rz6EnwJLkUcugh4KUepAShKNJDQhFUCkUCpVsIkhAibpKqo8bsbjbZvL7ZnZl9u5lYNQjqPPhB9jdvZmd+8/5sMpkP52A0tKRJ0JImQUuaBC1pErSkSdCSJkFLmgQtaRK05BtGuQuRdYfa8RnMkj0oHHlgDabgBmIxbn4A9tkAlmf8XxcWFOASF5iKFTTmeLCa8H99WEiA5Z8TMXsKduMe8ptyrAe5r0Owuu77FqDYEZPfwE3Pw0ICrDZk0k+gsmUnHbWwoXA4gqZD0saZQLV2DVnqt8mg3BgD84gf1pRmYwA56lfxgIWDAVR3GVRkOl7Eh8luDWC/GyTqE2MjKJaicSpAdgejFmuZNHblwpqKaoHEw2cXbOEMQQBW/Q5W1sl4AjYRjG9iDE31silYJ5fKV/n5U/SbAPOjR26scROvSQRoXhGxxG3mvvtiPDIXBY2EQMEq0RpKgNtJdBZ8p0veB/1hspCrHwJLeygCnRBMw5tKC5Gt+eCG4xgtO3G05H6IOhL4UBJzVut+Kips2GiJA3oj2JC8EoAbHurgbzynNISmGHH7DhRIfSrUR1BJC4CX0DxlYn4Pim0pKO5XREsI9YOCh+zZJNkGHTyQSgtbvShxgyEw7MKRKRwfUD6Fg1EkIIyhLDkigF2PI4hj5ZcQlgs2NyppBLiQp2O7JL2EWCHUDx02r6HUQCHCiWjq5TdQdQT3gFkncq0e5L8Nodoeg8Uwf2kt0AqQ2iRCHawzSPBpKL+ZIigv5ikCCCwdjsOp3KwjzsUCuLd4qAs9KnuRb4XFB3Y9zG8+3pfh9TQB3NZdgk/jRQTIlByVf9Gt2rDdj57/t6EM1orQsFZsfyL8gykwKwCtGWuET2MhAcqtCZxi5c9/JC0Q06DckbeFeR3eKv1oCuA41faWvqBgLbGBExE9ng9Fmbvr10rAxwpA6wPr3JOiPKcIPksAOXmOsTb9L4CHoK2KtxvelmQHkRsgG+cdRbYu1sV2GJKPFIC33T9S9MgebIPPESC358DxFRapVBvkPX4//XHDgTdZ/I0fONSf/2lqO7BBOsYKfizZnhgXbTWnDvtYAThwrZqb+LiJ3jeEgoiIl6kB7xla0iRoSZOgJU2CljQJWtIkaEmToCWNwTn8A/zOuTi+9uaDAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image, CV" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NClick.Target>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NClick>
+                <uix:NGetText DisplayName="Get Text 'Check-in Date'" sap:VirtualizedContainerService.HintSize="382,189" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="04c06987-ce96-44e1-97fe-9837f9264386" TextString="[CurreentMonthOnCalender]" Version="V3">
+                  <uix:NGetText.Target>
+                    <uix:TargetAnchorable BrowserURL="https://www.booking.com/searchresults.en-gb.html?ss=london&amp;ssne=Dead+Sea+Jordan&amp;ssne_untouched=Dead+Sea+Jordan&amp;label=gen173nr-1DCAEoggI46AdIM1gEaHSIAQGYAQm4ARfIAQzYAQPoAQGIAgGoAgO4AtmfgKgGwAIB0gIkZjZmMzIyNzQtODViNy00ZDJkLWFjNjktZWU4NzE5MWIxMTJl2AIE4AIB&amp;sid=df86af5530eb20dce3d43f12d63f6654&amp;aid=304142&amp;lang=en-gb&amp;sb=1&amp;src_elem=sb&amp;src=index&amp;dest_id=3609&amp;dest_type=region&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;sb_travel_purpose=leisure" CvType="AnyWordGroup" DesignTimeRectangle="555, 393, 281, 48" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'October 2024'" FullSelectorArgument="&lt;webctrl tag='H3' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='e1eebb6a1e ee7ec6b631' /&gt;" Guid="e041c23f-cc33-48f5-b04d-911fd56d190c" InformativeScreenshot="a7d1255d58b3804c5a012823ca94dc3f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Booking.com: Hotels in Dead Sea Jordan. Book your hotel now!' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                          <uix:Target CvElementArea="523, 279, 295, 55" CvTextArea="569, 299, 219, 15" CvTextArgument="Check-in Date - Check-out Date" CvType="Button" DesignTimeRectangle="571, 296, 88, 20" ElementType="Text" FriendlyName="'Check-in Date'" FullSelectorArgument="&lt;webctrl aaname='Check-in Date' parentid='bodyconstraint-inner' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Check-in Date' parentid='bodyconstraint-inner' tag='SPAN' type='' class='a8887b152e' check:innerText='Check-in Date' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFwAAAAYCAYAAAB3JpoiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPXSURBVGhD7Ze/a9tAFMf7d/iv0GiyBAr1FEGHCDp4FB5qKBhRCCZQTIaYLEYdgpbgJZhM8mDkIaBNGQIyBBwIOENQhoCGDoIMggzfvvsR2ZYtOWkTkUFfENh3p7v3Pvfeu9MnlCpUJfCCVQIvWCXwglUCL1gl8IJVAi9YK8CjGwdmS8O2UkGlUoHyWUPXjXif32NtJnz+7+0UDnWaV4f9IBs2KJ5Y0BsmvD+y4ZUS6wn/+KNsQ2uZsCehHPF+WgIejAxUGeRdA9bQhXfhwj7pwBwLQz4K8HDUhKI04bxwfFpiPQqkkUc+0jMeoNOoUpsC7bePWI7LVwBnT4d6/Doac+B3A9QJttrzIeJ5VR8F+P9q/Xox+adSuwrrWjblyofJsoN4vUYJcL+nUGp14eVs7zNw93YA4zONp4jY/unQXs8VXVowdli0VFDdMdC/XpjwKYR3bEDdYvNQf32AGTUvA5COUwTb9+z/qtLAVu2qon7gLtm1qMwNjly0yS7tVLwZ37lUXlWe9dzX731MH6njwYbO2+aPOeGv5PtPSoDbDXqxYSOvignHFFRbffj3AfwTSm2auH0uciKemFCpv3k6RRgFcA8ZuDZcXmtDOD/YptapRE0RhDO4xzamrGcBQDBkc6rkQPbOrwdO5eAXzReu2pVWJvBU1IZjE5Y7I18iBG6XfKNyy/tiRLQ5XTb20KXfEeKnTf4L/QPwBUNjD53EQAaUfreceUmSEdMc0azXFmr0u+2ugkwAXLLIIYOHWbEptB64ASdxzBcwMtL9pcCXFaYYpcdu8F8qAe4d0OAvFo+4LD2n7tycxUXl7zWPPgz5QbfeyWcAKrRdyoCvfV5mhFJzSmfXA8+ya1WZwGWpYPZyhR4GR23o37SkDGYDz/f/WQnw+KLL01A/y46ufMfkDu85PAVZmiUPC+ork+ZX0L3Ij/AmXUfV/Xn9jZfmEu++D/AI3lGNSkAHHqvTlL1dsqV24GAW0tqPwcsiPMt/qQQ4e8HdZ6c0FftGB4MxuzLRtfC4jU7mtXB5UX5do0htn/kI2EL3PuzDgcyaKawdGrulw8qp4aIOitvS6tYIvQ3wxWthHwbLLkWbnx2hgybNUWOHbxRiNhY1fA58CpN9qzQs+Lce/JtN/gstAGeKaGIzOWX5yczu5BNRlTY7FmM27KDObwrUvqXC6HnSQFI0xWCvLj+qqlBbNo/kNEBxcGbX8rcBzt4RD/u4M3oUyUtnbIwpHb7cVvowMs5c9FPnXHDegSb7rSvWssF/Ugp4qfdWCbxglcALVgm8YJXAC1YJvGCVwAsV8Be/Kb8JS9mmUAAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image, CV" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NGetText.Target>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NGetText>
+                <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="382,110" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[CurreentMonthOnCalender]" />
+              </Sequence>
+            </While>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '22'" sap:VirtualizedContainerService.HintSize="484,182" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="04c06987-ce96-44e1-97fe-9837f9264386" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.booking.com/searchresults.en-gb.html?ss=london&amp;ssne=Dead+Sea+Jordan&amp;ssne_untouched=Dead+Sea+Jordan&amp;label=gen173nr-1DCAEoggI46AdIM1gEaHSIAQGYAQm4ARfIAQzYAQPoAQGIAgGoAgO4AtmfgKgGwAIB0gIkZjZmMzIyNzQtODViNy00ZDJkLWFjNjktZWU4NzE5MWIxMTJl2AIE4AIB&amp;sid=df86af5530eb20dce3d43f12d63f6654&amp;aid=304142&amp;lang=en-gb&amp;sb=1&amp;src_elem=sb&amp;src=index&amp;dest_id=3609&amp;dest_type=region&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;sb_travel_purpose=leisure" CvTextArgument="22" CvType="Text" DesignTimeRectangle="635, 399, 40, 44" DesignTimeScaleFactor="1" ElementType="CheckBox" FriendlyName="'22'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aria-label='22 October 2024' aria-role='checkbox' tableRow='5' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aria-label='22 October 2024' aria-role='checkbox' type='' tag='SPAN' class='cf06f772fa ef091eb985' aaname='' check:innerText='22' /&gt;" Guid="82f7c3b7-0900-40e2-aa0c-42a641b46876" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACwAAAAwCAYAAABqkJjhAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADsSURBVGhD7dXRDYMgFIXhzsF8xHUMi+AiuoZJp7hFpBZpaKuXY9Lk/IkP6ssHXuJN/iyC0RGMjmB0BKMjGB3B6AhGRzA6gtEpwXfxnRFj0tX58CRrcq934XJTeq5IBw6gHDH2AdaP6S4sps8WMHuxxoqf0/3J2o5ERDl5ksuWBdlh9w0O1xa8jEA5Flvr+GjHoiF4BVV3MM5zffd/rRE4Hb5tfosiVj+/S3pwnNv6p44HsTomx9OBLzhkZSrwR9CXxZxNDc5/DLsfRBqVt/fK8Wh06K6LYHQEoyMYHcHoCEZHMDqC0RGMjmBsIg/HJn79FZv9dwAAAABJRU5ErkJggg==" InformativeScreenshot="9f79ecbd250b1ed3f050988f37e7912f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Booking.com: Hotels in Dead Sea Jordan. Book your hotel now!' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1382, 744" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="94657e93b6eb60127588dabff988dde0.jpg" Selector="&lt;html app='chrome.exe' title='Booking.com: Hotels in Dead Sea Jordan. Book your hotel now!' /&gt;" Title="Booking.com | Official site | The best hotels, flights, car rentals &amp; accommodations" Url="https://www.booking.com/searchresults.en-gb.html?ss=london&amp;ssne=Dead+Sea+Jordan&amp;ssne_untouched=Dead+Sea+Jordan&amp;label=gen173nr-1DCAEoggI46AdIM1gEaHSIAQGYAQm4ARfIAQzYAQPoAQGIAgGoAgO4AtmfgKgGwAIB0gIkZjZmMzIyNzQtODViNy00ZDJkLWFjNjktZWU4NzE5MWIxMTJl2AIE4AIB&amp;sid=df86af5530eb20dce3d43f12d63f6654&amp;aid=304142&amp;lang=en-gb&amp;sb=1&amp;src_elem=sb&amp;src=index&amp;dest_id=3609&amp;dest_type=region&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;sb_travel_purpose=leisure" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
