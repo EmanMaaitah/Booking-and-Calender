@@ -56,13 +56,13 @@ Recognize [data format microsoft](https://learn.microsoft.com/en-us/system-cente
    * In order to change the day to suit the user
 
 
-    <img src="https://github.com/user-attachments/assets/eac880ab-9b9e-47d7-b7a5-9c69fc9fcdb8" width="400">
+  <img src="https://github.com/user-attachments/assets/eac880ab-9b9e-47d7-b7a5-9c69fc9fcdb8" width="200">
   
 
 
 
   .
-    <img src="https://github.com/user-attachments/assets/5dbcb384-3e9b-45a5-8fb4-7e8c4ce3c292" width="400">
+   <img src="https://github.com/user-attachments/assets/5dbcb384-3e9b-45a5-8fb4-7e8c4ce3c292" width="200">
   
  
 
