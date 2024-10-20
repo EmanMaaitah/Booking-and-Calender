@@ -12,7 +12,7 @@ Recognize [data format microsoft](https://learn.microsoft.com/en-us/system-cente
 3) Type into > Click
 
 
-![image](https://github.com/user-attachments/assets/d2e69a79-830d-4505-8e2d-e8bd2795fc71)
+   ![image](https://github.com/user-attachments/assets/d2e69a79-830d-4505-8e2d-e8bd2795fc71)
 
 
 4) Get text, In order to send the current month > Message Box
@@ -22,16 +22,20 @@ Recognize [data format microsoft](https://learn.microsoft.com/en-us/system-cente
 
 5) Input Dialog, To ask the user when to book a flight
 
-![image](https://github.com/user-attachments/assets/415bb8e3-e4aa-44ab-9120-fea1af38cc07)
+    ![image](https://github.com/user-attachments/assets/415bb8e3-e4aa-44ab-9120-fea1af38cc07)
+
+
 
 * Based on Date/Time Format Codes
-![image](https://github.com/user-attachments/assets/c5def0d2-54f7-423d-842a-c692673405e6)
+
+  
+    ![image](https://github.com/user-attachments/assets/c5def0d2-54f7-423d-842a-c692673405e6)
 
 6) Multiple Assign > Message Box
 
    * strMonthYear : A variable containing the month in word form and the year in number form
    * strDayOnly : l It will only store the day of the entered date
-     ![image](https://github.com/user-attachments/assets/3b0cfd27-916c-47cd-b84f-3fa413228db4)
+    ![image](https://github.com/user-attachments/assets/3b0cfd27-916c-47cd-b84f-3fa413228db4)
 
    * In side Value(In Argument) field :DateTime.ParseExact(checkInDate,"d/MM/yyyy",system.Globalization.CultureInfo.InvariantCulture).ToString("MMMM yyyy")
    *  In side Value(In Argument) field : DateTime.ParseExact(checkInDate,"d/MM/yyyy",system.Globalization.CultureInfo.InvariantCulture).ToString("d/MM").Split("/")(0)
