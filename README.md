@@ -35,6 +35,8 @@ Recognize [data format microsoft](https://learn.microsoft.com/en-us/system-cente
 
    * strMonthYear : A variable containing the month in word form and the year in number form
    * strDayOnly : l It will only store the day of the entered date
+  
+     
     ![image](https://github.com/user-attachments/assets/3b0cfd27-916c-47cd-b84f-3fa413228db4)
 
    * In side Value(In Argument) field :DateTime.ParseExact(checkInDate,"d/MM/yyyy",system.Globalization.CultureInfo.InvariantCulture).ToString("MMMM yyyy")
