@@ -49,5 +49,13 @@ Recognize [data format microsoft](https://learn.microsoft.com/en-us/system-cente
 
      ![image](https://github.com/user-attachments/assets/d8c98bb9-b17c-4f00-beed-3902177b7097)
 
+8) The while function is to search for the month only. Once it is found, the loop will be exited and click will be used to find the desired day.
+
+    ![image](https://github.com/user-attachments/assets/c014010c-e697-4073-b36f-5df4d9d456c0)
+
+   * In order to change the day to suit the user 
+
 
 ## Results
+
+To watch the First Bot run this video, [click here](https://drive.google.com/file/d/17Gcr1kf5O3nFBrIgxTIWEqgkTvOI4CYt/view?usp=drive_link)
